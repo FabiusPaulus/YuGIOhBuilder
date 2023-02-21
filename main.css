@@ -48,6 +48,7 @@
 
 .front-page-button
 {
+    font-family: 'Bahnschrift';
     color: antiquewhite;
     padding: 16px 32px;
     display: inline-block;
@@ -58,10 +59,22 @@
     border-width : 1px;
     transition-duration: 0.4s;
 }
+
 .front-page-button:hover
 {
     color: black;
     background-color: antiquewhite;
+}
+
+.front-page-text
+{
+    font-family: 'Bahnschrift';
+    color:antiquewhite;
+}
+
+.front-page-input
+{
+    font-family: 'Bahnschrift';
 }
 
 .text-impressum
