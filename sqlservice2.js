@@ -46,17 +46,7 @@ var Connection = require('tedious').Connection;
         });  
         
         request.on("requestCompleted", function (rowCount, more) {
-            request.on('row', function(columns) {  
-                columns.forEach(function(column) {  
-                  if (column.value === null) {  
-                    console.log('NULL');  
-                  } else {  
-                    result+= column.value + " ";  
-                  }  
-                });  
-                console.log(result);  
-                result ="";  
-            });
+            console.log("hier könnte die nächste query stehen")
         });  
         connection.execSql(request);
     } 
