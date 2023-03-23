@@ -1,4 +1,3 @@
-import {executeStatement} from "\sqlservice2.js";
 
 var userNameInputSave;
 var passwordInputSave;
@@ -6,7 +5,6 @@ var passwordInputSave;
 function visitLogin()
 {
     window.location = 'login.html';
-    executeStatement();
 }
 
 function getLoginData()
