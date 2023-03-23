@@ -7,9 +7,9 @@ app.get('/', function (req, res) {
 
     // config for your database
     var config = {
-        user: 'dbo',
+        user: 'javascript',
         //password: 'Fahrenlernen+21',
-        server: 'localhost', 
+        server: '16.0.1000.6', 
         database: 'UserInfo',
         synchronize: true,
         trustServerCertificate: true, 
