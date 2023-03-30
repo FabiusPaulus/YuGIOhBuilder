@@ -72,6 +72,14 @@
     color:antiquewhite;
 }
 
+.front-page-header
+{
+    font-family: 'Bahnschrift';
+    color:antiquewhite;
+    font-size: 45px;
+    padding-top: 5px;
+}
+
 .front-page-input
 {
     font-family: 'Bahnschrift';

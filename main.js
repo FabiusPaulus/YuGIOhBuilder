@@ -12,3 +12,8 @@ function getLoginData()
     userNameInputSave = document.getElementById("userNameInput").value;
     passwordInputSave = document.getElementById("passwordInput").value;
 }
+
+function login()
+{
+    window.location = 'selectionscreen.html';
+}
